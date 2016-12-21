@@ -3,7 +3,6 @@ package com.tuchangwei.yora.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 /**
  * Created by vale on 1/4/16.
@@ -15,8 +14,7 @@ public abstract class BaseAuthenticatedActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         if (!application.getAuth().getUser().isLoggedIn()) {
-           startActivity(new Intent(this, LoginActivity.class));
-            Log.e("Base" , "hello");
+            startActivity(new Intent(this, LoginActivity.class));
             finish();
             return;
         }

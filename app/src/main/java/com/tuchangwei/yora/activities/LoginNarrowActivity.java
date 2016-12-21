@@ -14,7 +14,6 @@ public class LoginNarrowActivity extends BaseActivity implements LoginFragment.C
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        在自身的Layout当中，包含了Fragment
         setContentView(R.layout.activity_login_narrow);
     }
 

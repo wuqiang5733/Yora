@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:background="#dddddd">
-            <!--用（android:name , android:layout）把Fragment包含了进来-->
             <fragment
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,7 +1,8 @@
 package com.tuchangwei.yora.activities;
 
 import android.os.Bundle;
-import android.util.Log;
+
+import com.tuchangwei.yora.R;
 
 /**
  * Created by vale on 1/4/16.
@@ -9,6 +10,7 @@ import android.util.Log;
 public class MainActivity extends BaseAuthenticatedActivity {
     @Override
     protected void onYoraCreate(Bundle savedInstanceState) {
-        Log.e("MainActivity" , "hello");
+        setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("Yora");
     }
 }

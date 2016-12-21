@@ -22,7 +22,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log in Fragment"
+        android:text="Log in"
         android:layout_below="@+id/fragment_login_password"
         android:background="@color/primary_color_darker"
         android:textColor="#FFFFFF"
